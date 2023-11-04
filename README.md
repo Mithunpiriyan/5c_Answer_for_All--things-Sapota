@@ -23,7 +23,7 @@ You are hired as a data scientist to help them optimize their business. Can you 
 
 Ram is interested in understanding the short-term fluctuations and trends in their gross profit margins to better manage their inventory and cash flow.
 
-6. Can you calculate a 3-day average of the daily gross profit from the sales_data_2.csv? 
+6. Can you calculate a 3-day average of the daily gross profit from the data? 
 7. Additionally, provide insights into how this 3-day trend changes over the time period covered in the dataset.
 8. Can you optimize the sales process to ensure gross margin is maximized?
     A. Would you fire any vendor?
