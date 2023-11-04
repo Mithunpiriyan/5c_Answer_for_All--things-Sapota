@@ -1,0 +1,88 @@
+Sales Data:
+       Date Firm bought from  Buying price   Customer  Selling price  \
+0  21/08/23          Vendor6         72.11  Customer7          91.58   
+1  21/08/23          Vendor4         75.08  Customer7          83.71   
+2  21/08/23          Vendor7         83.93  Customer2         103.76   
+3  21/08/23          Vendor7         52.01  Customer3          64.53   
+4  21/08/23          Vendor2         98.91  Customer5         140.92   
+
+   Quantity sold  
+0             44  
+1             17  
+2             15  
+3              7  
+4              1  
+
+1. Overall Gross Margin: 31482.749999999996
+
+2. Most Profitable Vendor: Vendor4
+
+3. Least Profitable Customer: Customer3
+
+4. Most Profitable Day of the Week: Monday
+
+5. Least Profitable Day of the Week: Sunday
+
+6. 3-Day Average of Daily Gross Profit:
+         Date  3-Day_Avg_Gross_Profit
+0  2023-08-21                     NaN
+2  2023-08-21             6847.340000
+10 2023-08-22             5666.676667
+11 2023-08-22             4486.013333
+12 2023-08-22             3305.350000
+20 2023-08-23             3667.723333
+21 2023-08-23             4030.096667
+22 2023-08-23             4392.470000
+30 2023-08-24             4550.323333
+31 2023-08-24             4708.176667
+32 2023-08-24             4866.030000
+40 2023-08-25             4498.000000
+41 2023-08-25             4129.970000
+42 2023-08-25             3761.940000
+50 2023-08-26             4249.013333
+51 2023-08-26             4736.086667
+52 2023-08-26             5223.160000
+60 2023-08-27             4510.926667
+61 2023-08-27             3798.693333
+62 2023-08-27             3086.460000
+
+7. Insights into the 3-Day Trend:
+         Date  3-Day_Avg_Gross_Profit
+0  2023-08-21                     NaN
+2  2023-08-21             6847.340000
+10 2023-08-22             5666.676667
+11 2023-08-22             4486.013333
+12 2023-08-22             3305.350000
+20 2023-08-23             3667.723333
+21 2023-08-23             4030.096667
+22 2023-08-23             4392.470000
+30 2023-08-24             4550.323333
+31 2023-08-24             4708.176667
+32 2023-08-24             4866.030000
+40 2023-08-25             4498.000000
+41 2023-08-25             4129.970000
+42 2023-08-25             3761.940000
+50 2023-08-26             4249.013333
+51 2023-08-26             4736.086667
+52 2023-08-26             5223.160000
+60 2023-08-27             4510.926667
+61 2023-08-27             3798.693333
+62 2023-08-27             3086.460000
+
+10. Frequency of Prices Below 25th Percentile:
+False    52
+True     18
+dtype: int64
+
+10. Frequency of Prices Above 75th Percentile:
+False    49
+True     21
+dtype: int64
+
+11. Impact of Honoring Vendor 4 on Gross Margin: 690.331000000002
+
+12. Most Profitable Vendor for Strategic Tie-Up: Vendor4
+Theoretical Max Margin from the Most Profitable Vendor: 6903.309999999999
+
+13. Price Elasticity of Sapota:
+Price Elasticity for Rs. 1 Price Increase: 0.0
